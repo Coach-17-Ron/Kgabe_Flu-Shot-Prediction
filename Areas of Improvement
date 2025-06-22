@@ -1,0 +1,13 @@
+Areas for Improvement
+While this project achieved the competition objectives using multiple models (Random Forest, XGBoost, Logistic Regression, and LightGBM) for a multi-label classification task, 
+there are several areas I plan to improve on:
+
+Stratified Validation: Currently using a basic train-test split. I plan to implement stratified cross-validation to better handle class imbalance and improve the robustness of performance estimates.
+
+Hyperparameter Tuning: Models use fixed parameters. Incorporating GridSearchCV systematic hyperparameter optimization will likely enhance predictive performance.
+
+Explainability: Feature importance is included, but I intend to integrate SHAP for more interpretable, model-agnostic insights, especially for decision-making variables.
+
+Ensembling: Only the LightGBM model is used in the final prediction. I plan to explore model ensembling or stacking to leverage the strengths of multiple models.
+
+These improvements will help increase the model’s generalisability, interpretability, and competitiveness.
